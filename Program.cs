@@ -1,12 +1,9 @@
 ﻿using System;
 
-namespace NullableTypes
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+namespace NullableTypes {
+    class Program {
+        static void Main (string[] args) {
+            Nullable<DateTime> date = null;
         }
     }
 }
