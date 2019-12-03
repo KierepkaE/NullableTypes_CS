@@ -3,7 +3,7 @@
 namespace NullableTypes {
     class Program {
         static void Main (string[] args) {
-            Nullable<DateTime> date = null;
+            DateTime? date = null;
         }
     }
 }
